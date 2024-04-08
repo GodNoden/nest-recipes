@@ -70,4 +70,4 @@ COPY --from=build /usr/src/app/./ ././
 EXPOSE 8080
 
 # Run the application.
-CMD node dist/main.js
+CMD node dist/src/main.js
